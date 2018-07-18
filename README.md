@@ -34,5 +34,5 @@ RESTful API for Cab Booking System
 
 7. To book a cab - `localhost:<port number>/zayacab/<commuter_id>/<driver_id>` and pass source, destination and fare in `POST` request.
 
-8. Get the list of available drivers- ``localhost:<port number>/zayacab/driver/available`
+8. Get the list of all available drivers- `localhost:<port number>/zayacab/driver/available`
 
