@@ -60,7 +60,7 @@ def BookCab(request, commuter_id, driver_id):
         driver = Driver.objects.get(id=driver_id)
     except:
         return Response({"error": "Driver with this ID {} does not exist".format(driver_id)})
-    if driver.status == "AV":
+    if driver.status == "AV":   #filters out those drivers who are currently booked and offline
         driver.status = "BK"
         driver.save()
         trip = Trip.objects.create(commuter=commuter, driver=driver)
