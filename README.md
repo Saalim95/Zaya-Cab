@@ -1,5 +1,7 @@
+![alt text](http://zaya.in/wp-content/uploads/2018/01/Zaya-Logo_PNG_Blue_FB-3.png "Zaya Cab")
 # Zaya-Cab
 RESTful API for Cab Booking System
+
 
 ### Instructions:
 1. Create the virtual environment by hitting following command in the Terminal ```virtualenv env```
