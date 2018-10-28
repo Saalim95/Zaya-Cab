@@ -1,9 +1,9 @@
 #!/usr/bin/env python
-import os
+import os as op
 import sys
 
 if __name__ == "__main__":
-    os.environ.setdefault("DJANGO_SETTINGS_MODULE", "zaya.settings")
+    op.environ.setdefault("DJANGO_SETTINGS_MODULE", "zaya.settings")
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:
